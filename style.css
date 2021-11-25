@@ -9,6 +9,10 @@ body{
 }
 
 /* immagini */
+.clothes{
+    display: inline-block;
+}
+
 .box{
     display: inline-block;
     position: relative;
@@ -71,6 +75,9 @@ body{
 /* testo */
 .clothes h5{
     margin: 0;
+}
+
+.brand{ 
     color: black;
 }
 
@@ -79,4 +86,14 @@ body{
     color: black;
 }
 
-spa
+.sale-price{
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.price{
+    color: black;
+    text-decoration: line-through;
+    display: inline-block;
+}
