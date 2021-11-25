@@ -1,17 +1,26 @@
 body{
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
 }
 
 .row{
-    display: inline-block;
+    text-align: center;
+}
+
+.row:last-child{
+    margin-top: 60px;
+}
+
+.row .clothes:nth-child(2){
+    margin: 0px 10px;
 }
 
 /* immagini */
 .clothes{
     display: inline-block;
 }
+
 
 .box{
     display: inline-block;
@@ -73,6 +82,10 @@ body{
 }
 
 /* testo */
+.clothes{
+    text-align: left;
+}
+
 .clothes h5{
     margin: 0;
 }
