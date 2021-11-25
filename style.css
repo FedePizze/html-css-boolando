@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    display: inline-block;
+}
+
+/* immagini */
+.box{
+    display: inline-block;
+    position: relative;
+}
+
+.img1{
+    width: 400px;
+    height: auto;
+    position: relative;
+}
+
+.img2{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img2:hover{
+    display: none;
+}
+
+/* etichette */
+.heart-box{
+    content:'\1F5A4';
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.heart-box::before{
+    content:'\1F5A4';
+}
+
+.labels{
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+}
+
+.sconto{
+    color: white;
+    background-color: red;
+    padding: 2px 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.sustainability{
+    color: white;
+    background-color: green;
+    padding: 2px 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+/* testo */
+.clothes h5{
+    margin: 0;
+    color: black;
+}
+
+.clothes h3{
+    margin: 0;
+    color: black;
+}
+
+spa
